@@ -118,9 +118,9 @@ export const _2: FC<Props> = memo(function _2(props = {}) {
       <div className={classes.group2}>
         <Group2Icon className={classes.icon16} />
       </div>
-      <div className={classes.aPIDocumentation}> API documentation</div>
-      <div className={classes.databaseSchemaDiagram}>database schema diagram</div>
-      <div className={classes.systemArchitectureDiagram}>System architecture diagram</div>
+      <div className={classes.aPIDocumentation}> <a href="https://codefrontend.com">API documentation</a></div>
+      <div className={classes.databaseSchemaDiagram}> <a href='https://www.figma.com/file/8RDSJBIyE2cZtijqnTx94m/LocalEats-Database-Schema-Final?type=design&mode=design&t=IYHopkdtflQ4Ogqe-0'> database schema diagram</a></div>
+      <div className={classes.systemArchitectureDiagram}> <a href='https://www.figma.com/file/BKREMKN6OLJnFSbvK2ono7/System-Design-Final?type=whiteboard&node-id=0-1&t=IYHopkdtflQ4Ogqe-0'> System architecture diagram </a></div>
       <div className={classes.frame1}>
         <Frame1Icon className={classes.icon17} />
       </div>
