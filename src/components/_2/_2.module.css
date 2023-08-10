@@ -1,10 +1,11 @@
 .root {
   position: relative;
-  width: 100vw;
-  height: 100vh;
+  flex: 1;
+  align-self: stretch;
   align-items: flex-start;
   background-color: #fff;
-  overflow: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 .ellipse2 {
   position: absolute;
